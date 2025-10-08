@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -rf _site",
+    "clean": "rm -rf docs",
     "build": "npm run clean && ELEVENTY_ENV=production npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve"
   },
