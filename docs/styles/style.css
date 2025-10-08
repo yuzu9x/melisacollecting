@@ -1,4 +1,45 @@
-.title{
-    color: blue;
-
-}
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .logo {
+    margin: 20px 0;
+  }
+  
+  main {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .posts-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .posts-list li {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  footer {
+    margin-top: 40px;
+  }

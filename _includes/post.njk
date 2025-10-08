@@ -1,11 +1,29 @@
-<!--- pulls in content from our base.njk layout ---> 
-{% extends "base.njk" %}
+<!DOCTYPE html>
+<html lang="en">
+  <!--- base.njk ---> 
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{'/styles/style.css' | prefixedUrl }}">
+    
+    </head>
+   <body>
+  {% include "nav.njk" %}
 
-<!-- block and endblock tags can be used when we want to inject custom code into our template -->
-{% block content %}
+ 
+  <img src=" {{ '/assets/logos/melisalogo.png'}}" alt="melisa" class="logo"
+    style="width:220px;height:150px;">
+  
+  <main>
   <article>
-    <h2>{{ title }}</h2>
-    <p><em>{{ date }}</em></p>
-    {{ content | safe }}
+    <h1.{{title}}>/h>
+    <p><em>{{ date | readableDate }}</em></p>
+ {{ content | safe }}
   </article>
-{% endblock %}
+  </main>
+
+
+ {% include "footer.njk" %}
+</body>
+
+</html>

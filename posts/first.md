@@ -1,5 +1,5 @@
 ---
-title: First Post
+title: look at me
 date: 2025-09-25
 tags: post
 layout: post.njk
