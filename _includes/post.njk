@@ -11,11 +11,11 @@
   {% include "nav.njk" %}
 
  
-  <img src="{{ '/assets/logos/melisalogo.png' }}" alt="melisa">
+  <img src="{{ '/assets/logos/melisalogo.png' }}" alt="melisa" class="logo2">
   
   <main>
   <article>
-    <h1>{{title}}</h>
+    <h1 class="h1post">{{title}}</h1>
     <p><em>{{ date | readableDate }}</em></p>
  {{ content | safe }}
   </article>
