@@ -1,5 +1,5 @@
 ---
-title: my home~
+title: 。°。°。°。° my home 。°。°。°。°
 layout: base.njk
 ---
 

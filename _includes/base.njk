@@ -12,7 +12,13 @@
 
  
   <img src="{{ '/assets/logos/melisalogo.png' }}" alt="melisa" class="logo">
-  
+
+  <img src="{{ '/assets/images/curtain.jpg' }}" alt="curtain" 
+    width="600"
+    height="auto"
+    style="margin: 30px 10px; height: auto;"
+    >
+
   <h1 class="h1main">{{ title }}</h1>
   
   <main>{{ content | safe }}</main>
@@ -25,6 +31,12 @@
   <li><a href="{{ post.url | prefixedUrl}}">{{ post.data.title }}</a> – {{ post.date | readableDate  }}</li>
   {% endfor %}
 </ul>
+
+  <img src="{{ '/assets/images/bannermelisa.jpg' }}" alt="banner" 
+    width="700"
+    height="auto"
+    style="margin: 40px 10px; height: auto;"
+    >
 
  {% include "footer.njk" %}
 
