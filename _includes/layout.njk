@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+  <!--- base.njk ---> 
+<head>
+    <meta charset="UTF-8">
     <title>{{ title }}</title>
-  </head>
-  <body>
-    <main>
-      {{ content | safe }}
-    </main>
-  </body>
+    <link rel="stylesheet" href="{{'/styles/style.css' | prefixedUrl }}">
+    
+    </head>
+   <body>
+  {% include "nav.njk" %}
+
+ 
+  <img src="{{ '/assets/logos/melisalogo.png' }}" alt="melisa" class="logo">
+  
+  <h1 class="h1main">{{ title }}</h1>
+  
+  <main>{{ content | safe }}</main>
+ 
+
+
+
+
+ {% include "footer.njk" %}
+
+</body>
+
 </html>

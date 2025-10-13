@@ -5,6 +5,6 @@ tags: post
 layout: post.njk
 ---
 
-This is the first post content.
+look its me :D
 
 <img src="/assets/images/IMG_0363_2.png" alt="hi its me" style="width: 300px;">

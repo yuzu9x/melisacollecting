@@ -1,7 +1,7 @@
 ---
+title: my home~
 layout: base.njk
-title: About
 ---
 
-# what up meow meow meow
-Hello i am melisa this is my stuff
+# 
+hi i am melisa this is my collection of images ive taken 

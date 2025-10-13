@@ -5,67 +5,103 @@
     font-style: normal;
   }
   
+  /* Base layout */
   body {
-      margin: 0;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-family: 'Courier New', Courier, monospace, sans-serif;
-    }
-    
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-    }
-    
-    .logo {
-      margin: 20px 0;
-    }
-    
-    main {
-      max-width: 800px;
-      width: 100%;
-      text-align: center;
-      margin: 20px 0;
-    }
-    
-    .posts-list {
-      list-style: none;
-      padding: 0;
-      margin: 20px 0;
-      max-width: 800px;
-      width: 100%;
-    }
-    
-    .posts-list li {
-      margin: 10px 0;
-      text-align: center;
-    }
-    
-    footer {
-      margin-top: 40px;
-    }
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+  }
   
-  /* POST CSS */
-    .logo2 {
-      margin: 20px 50px;
-      width: 200px;
-      height: auto;
-      align-self: flex-start;
-    }
+  /* HEADER LAYOUT */
+  .header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+  }
   
-    .h1post {
-      margin: 20px 0px;
-      text-align: center;
-      align-self: flex-start;
-      font-family: 'MainFont', 'Courier New', Courier, monospace;
-    }
+  /* LOGO */
+
+  .logo {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .logo2 {
+    width: 100px;
+    height: auto;
+    margin: 0;
+  }
   
-    .h1main {
-      font-family: 'MainFont', 'Courier New', Courier, monospace;
-    }
+  /* NAVIGATION */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    font-family: 'MainFont', 'Courier New', Courier, monospace;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #8abab0;
+  }
+  
+  nav a:hover {
+    color: #b2ede1;
+  }
+  
+  /* MAIN CONTENT */
+  main {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .posts-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .posts-list li {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .posts-list a {
+    text-decoration: none;
+    color: #8abab0;
+  }
+  
+  .posts-list a:hover {
+    color: #b2ede1;
+  }
+  
+  /* ARTICLE / POST STYLES */
+  .h1post {
+    margin: 20px 0px;
+    text-align: center;
+    font-family: 'MainFont', 'Courier New', Courier, monospace;
+  }
+  
+  .h1main {
+    font-family: 'MainFont', 'Courier New', Courier, monospace;
+  }
+  
+  /* FOOTER */
+  footer {
+    margin-top: 60px;
+  }
+  

@@ -1,8 +1,8 @@
 ---
-title: About
-layout: base.njk
+title: about me...
+layout: layout.njk
 ---
 
-# About 
+# 
 
-This is an about page. 
+hello i am melisa and i go to parsons and i have lots of awesome fun at home in my bed where i like to sleep and eat

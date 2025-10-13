@@ -3,7 +3,7 @@
   <!--- base.njk ---> 
 <head>
     <meta charset="UTF-8">
-    <title class="h1main">{{ title }}</title>
+    <title>{{ title }}</title>
     <link rel="stylesheet" href="{{'/styles/style.css' | prefixedUrl }}">
     
     </head>
@@ -11,8 +11,9 @@
   {% include "nav.njk" %}
 
  
-  <img src="{{ '/assets/logos/melisalogo.png' }}" alt="melisa" 
-    style="width:220px;height:150px;">
+  <img src="{{ '/assets/logos/melisalogo.png' }}" alt="melisa" class="logo">
+  
+  <h1 class="h1main">{{ title }}</h1>
   
   <main>{{ content | safe }}</main>
  

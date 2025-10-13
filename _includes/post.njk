@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <!--- base.njk ---> 
-<head>
+  <head>
     <meta charset="UTF-8">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="{{'/styles/style.css' | prefixedUrl }}">
-    
-    </head>
-   <body>
-  {% include "nav.njk" %}
+    <link rel="stylesheet" href="{{ '/styles/style.css' | prefixedUrl }}">
+  </head>
 
- 
-  <img src="{{ '/assets/logos/melisalogo.png' }}" alt="melisa" class="logo2">
-  
-  <main>
-  <article>
-    <h1 class="h1post">{{title}}</h1>
-    <p><em>{{ date | readableDate }}</em></p>
- {{ content | safe }}
-  </article>
-  </main>
+  <body>
+    <!-- Header: logo and nav on same level -->
+    <header class="header">
+      <img src="{{ '/assets/logos/melisalogo.png' }}" alt="melisa" class="logo2">
+      {% include "nav.njk" %}
+    </header>
 
+    <main>
+      <article>
+        <h1 class="h1post">{{ title }}</h1>
+        <p><em>{{ date | readableDate }}</em></p>
+        {{ content | safe }}
+      </article>
+    </main>
 
- {% include "footer.njk" %}
-</body>
-
+    {% include "footer.njk" %}
+  </body>
 </html>
