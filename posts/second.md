@@ -1,8 +1,10 @@
 ---
 title: sherbet
-date: 2025-09-26
+date: 2025-08-03
 tags: post
 layout: post.njk
 ---
 
-This is another post on our blog with more content. 
+my sherbet that is pink
+
+<img src="/assets/images/IMG_2410.png" alt="hi its me" style="width: 400px;">
