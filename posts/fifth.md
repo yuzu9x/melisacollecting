@@ -6,3 +6,4 @@ layout: post.njk
 ---
 
 This is another post on our blog with more content. 
+<img src="/assets/images/IMG_0363_2.png" alt="hi its me" style="width: 300px;">
