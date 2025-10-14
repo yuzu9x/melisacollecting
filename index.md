@@ -4,4 +4,4 @@ layout: base.njk
 ---
 
 # 
-hi i am melisa this is my collection of images ive taken 
+hi i am melisa & this is my collection of images 

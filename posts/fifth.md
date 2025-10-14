@@ -1,6 +1,6 @@
 ---
-title: chairs i found
-date: 2025-10-06
+title: °✥✤✣ chairs i found
+date: 2025-09-09
 tags: post
 layout: post.njk
 ---

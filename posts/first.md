@@ -1,6 +1,6 @@
 ---
-title: ~look at me~
-date: 2025-09-25
+title: °✥✤✣ look at me
+date: 2025-06-09
 tags: post
 layout: post.njk
 ---

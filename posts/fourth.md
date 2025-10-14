@@ -1,5 +1,5 @@
 ---
-title: only soup
+title: °✥✤✣ only soup
 date: 2025-10-06
 tags: post
 layout: post.njk

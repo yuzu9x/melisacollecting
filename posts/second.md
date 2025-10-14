@@ -1,5 +1,5 @@
 ---
-title: sherbet
+title: °✥✤✣ sherbet
 date: 2025-08-03
 tags: post
 layout: post.njk
