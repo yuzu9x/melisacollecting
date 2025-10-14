@@ -14,12 +14,24 @@
       {% include "nav.njk" %}
     </header>
 
+
     <main>
       <article>
         <h1 class="h1post">{{ title }}</h1>
         <p><em>{{ date | readableDate }}</em></p>
         {{ content | safe }}
       </article>
+
+     <ul class="posts-list">
+  {% for post in collections.post %}
+  <li>
+    <a href="{{ post.url | prefixedUrl }}">
+      {{ post.data.title }}
+    </a>
+   </li>
+   {% endfor %}
+  </ul>
+
     </main>
 
     {% include "footer.njk" %}

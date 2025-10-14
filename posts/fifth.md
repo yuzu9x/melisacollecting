@@ -1,9 +1,10 @@
 ---
-title: °✥✤✣ chairs i found
+title: °✥✤✣ lace in my skin
 date: 2025-09-09
 tags: post
 layout: post.njk
 ---
 
-This is another post on our blog with more content. 
-<img src="/assets/images/IMG_0363_2.png" alt="hi its me" style="width: 300px;">
+the skirt i was wearing left an imprint in my leg hehe
+<br><img src="/assets/images/IMG_2485.JPG" alt="lace" style="width: 400px; margin: 40px 0;">
+
