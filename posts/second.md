@@ -7,4 +7,4 @@ layout: post.njk
 
 my sherbet that is pink
 
-<img src="/assets/images/IMG_2410.png" alt="hi its me" style="width: 400px;">
+<img src="{{ '/assets/images/IMG_2410.png' | prefixedUrl }}" alt="sherbet" style="width: 400px;">

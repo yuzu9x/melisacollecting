@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'MainFont';
-    src: url('/assets/fonts/MainFont.ttf') format('truetype');
+    /*src: url( '/assets/fonts/MainFont.ttf') format('truetype');
+    src: url("{{ '/assets/fonts/MainFont.ttf' | prefixedUrl }}") format('truetype');*/
     font-weight: normal;
     font-style: normal;
   }
@@ -65,6 +66,7 @@
     width: 100%;
     text-align: center;
     margin-top: 0px;
+    font-family: 'MainFont', 'Courier New', Courier, monospace;
   }
   
   .posts-list {
@@ -107,5 +109,6 @@
   /* FOOTER */
   footer {
     margin-top: 60px;
+    font-family: 'MainFont', 'Courier New', Courier, monospace;
   }
   

@@ -3,6 +3,16 @@
   <!--- base.njk ---> 
 <head>
     <meta charset="UTF-8">
+
+    <style>
+    @font-face {
+    font-family: 'MainFont';
+    src: url("{{ '/assets/fonts/MainFont.ttf' | prefixedUrl }}") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    </style>
+
     <title>{{ title }}</title>
     <link rel="stylesheet" href="{{'/styles/style.css' | prefixedUrl }}">
     
@@ -11,9 +21,9 @@
   {% include "nav.njk" %}
 
  
-  <img src="{{ '/assets/logos/melisalogo.png' }}" alt="melisa" class="logo">
+  <img src="{{ '/assets/logos/melisalogo.png' | prefixedUrl }}" alt="melisa" class="logo">
 
-  <img src="{{ '/assets/images/curtain.jpg' }}" alt="curtain" 
+  <img src="{{ '/assets/images/curtain.jpg' | prefixedUrl }}" alt="curtain" 
     width="600"
     height="auto"
     style="margin: 30px 10px; height: auto;"
@@ -32,7 +42,7 @@
   {% endfor %}
 </ul>
 
-  <img src="{{ '/assets/images/bannermelisa.jpg' }}" alt="banner" 
+  <img src="{{ '/assets/images/bannermelisa.jpg' | prefixedUrl }}" alt="banner" 
     width="600"
     height="auto"
     style="margin: 40px 10px; "
