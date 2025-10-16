@@ -3,6 +3,7 @@
   <!--- base.njk ---> 
 <head>
     <meta charset="UTF-8">
+    <img src="{{ '/assets/logos/melisalogo.png' | prefixedUrl }}" alt="melisa" class="logo">
     <style>
     @font-face {
     font-family: 'MainFont';
@@ -19,8 +20,6 @@
    <body>
   {% include "nav.njk" %}
 
- 
-   <img src="{{ '/assets/logos/melisalogo.png' | prefixedUrl }}" alt="melisa" class="logo">
   
   <h1 class="h1main">{{ title }}</h1>
   <img src="{{ '/assets/images/IMG_4738.jpg' | prefixedUrl }}" alt="little me" 
